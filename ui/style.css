@@ -1,0 +1,62 @@
+window {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.launcher-panel {
+  background-color: rgba(24, 28, 40, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  color: #f4f6fb;
+  padding: 24px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.subtitle,
+.muted {
+  color: #b8c0d3;
+}
+
+.section-title {
+  color: #e8ebf3;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.status-error {
+  color: #ff8d91;
+}
+
+.status-success {
+  color: #7dd9a8;
+}
+
+entry,
+list,
+scrolledwindow {
+  background-color: rgba(12, 15, 23, 0.72);
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+}
+
+.primary-action {
+  background-color: #6957e8;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.game-button {
+  min-height: 40px;
+  text-align: left;
+}
+
+.game-button.selected {
+  background-color: rgba(105, 87, 232, 0.35);
+}
